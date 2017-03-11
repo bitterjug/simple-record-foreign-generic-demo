@@ -5,6 +5,5 @@ node_js: 7
 install:
   - npm install -g bower purescript pulp
 script:
-  - npm install
   - bower install
   - pulp run
